@@ -1,0 +1,51 @@
+* {
+  margin: 0 ;
+  font-family: "Montserrat", sans-serif;
+}
+
+.app{
+  background-color: #fafafa;
+}
+.app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  object-fit: contain;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.app__headerContainter{
+  margin: 0 auto;
+  padding: 1em 0 0.9em 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 1000px;
+}
+.app__headerImage{
+  object-fit: contain;
+  padding: 0 1em;
+}
+.app__headerImage:hover{
+  cursor: pointer;
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app__posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app__postsLeft{
+  margin: auto;
+  width: 500px;
+}
+
+.app__postsRight{
+  margin-left: 50px;
+}
